@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 
 #データ分析関連
@@ -12,7 +12,7 @@ st.line_chart(df)
 st.bar_chart(df['2021年'])
 
 #matplotlib
-fig, ax  = plt.subplots()
-ax.plot(df.index, df['2021年'])
-ax.set_title('matplotlib graph')
-st.pyplot(fig)
+# fig, ax  = plt.subplots()
+# ax.plot(df.index, df['2021年'])
+# ax.set_title('matplotlib graph')
+# st.pyplot(fig)
